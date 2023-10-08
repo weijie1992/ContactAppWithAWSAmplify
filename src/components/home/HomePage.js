@@ -8,7 +8,7 @@ function HomePage () {
     return (<Container>
         <Row className="px-4 my-5">
             <Col xs={4} sm={6}>
-                <Image src="" fluid/>
+                <Image src="/img/logo.png" fluid/>
             </Col>
             <Col sm={6}>
                 <h1 className="font-weight-light">Contacts App</h1>

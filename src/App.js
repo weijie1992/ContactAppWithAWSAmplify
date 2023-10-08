@@ -8,8 +8,16 @@ import LoginPage from './components/auth/LoginPage';
 import RegisterPage from './components/auth/RegisterPage';
 import Contacts from './components/contacts/Contacts';
 
+import { Amplify } from 'aws-amplify';
+import { Authenticator } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css'
+import awsExports from './aws-exports'
+
+Amplify.configure(awsExports)
+
 function App () {
   return (
+    <Authenticator loginMechanisms={['email']}>
     <div>
       <SiteNav />
       <Routes>
@@ -20,7 +28,8 @@ function App () {
         <Route path='/contact' exact={true} element={<Contacts />} />
       </Routes>
       <SiteFooter />
-    </div>
+      </div>
+    </Authenticator>
   );
 }
 

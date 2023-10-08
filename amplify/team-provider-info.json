@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-contactsapp-dev-210846-authRole",
+      "UnauthRoleArn": "arn:aws:iam::102097092766:role/amplify-contactsapp-dev-210846-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::102097092766:role/amplify-contactsapp-dev-210846-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-contactsapp-dev-210846-deployment",
+      "UnauthRoleName": "amplify-contactsapp-dev-210846-unauthRole",
+      "StackName": "amplify-contactsapp-dev-210846",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:102097092766:stack/amplify-contactsapp-dev-210846/d0e55e00-65db-11ee-8a1e-06e2d340af64",
+      "AmplifyAppId": "d9xja31zj0voo"
+    },
+    "categories": {
+      "auth": {
+        "contactsapp3b725603": {}
+      }
+    }
+  }
+}
