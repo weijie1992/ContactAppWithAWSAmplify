@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "contactsapp3b725603": {}
+      },
+      "storage": {
+        "contactstorage": {}
+      },
+      "api": {
+        "contactsapp": {}
       }
     }
   }
