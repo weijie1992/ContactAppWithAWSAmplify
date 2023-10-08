@@ -2,7 +2,8 @@ import Container from "react-bootstrap/esm/Container"
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
-import Button  from "react-bootstrap/Button";
+import Button from "react-bootstrap/Button";
+import {Link} from 'react-router-dom'
 
 function HomePage () {
     return (<Container>
@@ -16,7 +17,9 @@ function HomePage () {
                     <br /><br />
                     lorem Ipsumlorem Ipsumlorem Ipsumlorem Ipsumlorem Ipsumlorem Ipsumlorem Ipsumlorem Ipsumlorem Ipsumlorem Ipsumlorem Ipsumlorem Ipsumlorem Ipsumlorem Ipsumlorem Ipsum
                 </p>
-                <Button variant="outline-primary">Get Started &gt;&gt;</Button>
+                <Link to={{pathname: '/contacts'}}>
+                    <Button variant="outline-primary">View Contacts&gt;&gt;</Button>
+                </Link>
             </Col>
         </Row>
     </Container>)
